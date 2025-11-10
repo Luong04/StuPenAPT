@@ -1,0 +1,35 @@
+System <SystemName> {
+    Component {
+        name = "<component_name>"
+        
+        Interface {
+            name = "<interface_name>"
+            Property {
+                name = "<property_name>"
+                value = <property_value>
+            }
+            // ... more properties
+        }
+        // ... more interfaces
+        
+        Property {
+            name = "<property_name>" 
+            value = <property_value>
+        }
+        // ... more component properties
+    }
+    // ... more components
+    
+    Invocation {
+        Source = "<source_component>"
+        Target = "<target_component>" 
+        Interface = "<interface_name>"
+    }
+    // ... more invocations
+    
+    Property {
+        name = "<global_property_name>"
+        value = <property_value>
+    }
+    // ... more global properties
+}

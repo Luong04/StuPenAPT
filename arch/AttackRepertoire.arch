@@ -1,0 +1,50 @@
+System AttackRepertoire {
+    Component {
+        name = "AttackSteps"
+        Interface {
+            name = "ssh_bruteforce"
+            Property {
+                name = "MitreAttck"
+                value = "T1110"
+            }
+        }
+        Interface {
+            name = "service_scan"
+            Property {
+                name = "MitreAttck" 
+                value = "T1046"
+            }
+        }
+    }
+    
+    Component {
+        name = "AttackPatterns"
+        Interface {
+            name = "network_credential_attack"
+            Property {
+                name = "AttackVector"
+                value = "Network"
+            }
+            Property {
+                name = "AttackComplexity"
+                value = "Low"
+            }
+            Property {
+                name = "RequiredPrivileges"
+                value = "None"
+            }
+            Property {
+                name = "UserInteraction"
+                value = "None"
+            }
+            Property {
+                name = "RunningTime"
+                value = "Short"
+            }
+            Property {
+                name = "Steps"
+                value = "[service_scan, ssh_bruteforce]"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+System Tooling {
+    Component {
+        name = "nmap_scanner"
+        Property {
+            name = "PluginPath"
+            value = "./plugins/nmap_scanner.so"
+        }
+    }
+    Component {
+        name = "hydra_bruteforce" 
+        Property {
+            name = "PluginPath"
+            value = "./plugins/hydra_bruteforce.so"
+        }
+    }
+}
