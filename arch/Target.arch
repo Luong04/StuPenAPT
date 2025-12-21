@@ -1,2 +1,59 @@
-System Target{
+System Target {
+    
+    # Global configuration (system-level properties)
+    Property TARGET_THRESHOLD = 5
+    Property ATTACK_THRESHOLD = 3
+    Property SCAN_THRESHOLD = 3
+    Property MAX_CONCURRENT_ATTACKS = 3
+    Property MAX_CONCURRENT_SCANS = 3
+    Property MAX_LOOPS = 10
+    
+    # Network configuration
+    Property NetworkRange = "192.168.1.0/24"
+    Property GatewayIP = "192.168.1.1"
+    
+    # Utility function weights (used by target_utility.c)
+    Property W_VULN = 0.4
+    Property W_SERV = 0.2
+    Property W_CONN = 0.2
+    Property W_STATE = 0.2
+    
+    # ============================================================
+    # Initial target component (attacker machine)
+    # ============================================================
+    Component AttackerHost {
+        Property Name = "AttackerHost"
+        Property Description = "The attacking machine"
+        Property IPAddress = "192.168.1.100"
+        Property Role = "Attacker"
+        
+        # Metrics for target scoring
+        Property NumVulnerabilities = 0
+        Property NumServices = 0
+        Property NumConnections = 0
+        Property ExploitationState = "CnC"  # Already controlled
+    }
+    
+    # ============================================================
+    # Known targets will be added dynamically by scans
+    # Below are example target templates
+    # ============================================================
+    
+    # Example: A generic target template
+    Component DefaultTarget {
+        Property Name = "DefaultTarget"
+        Property Description = "A sample target node"
+        Property IPAddress = "0.0.0.0"
+        
+        # Base metrics (updated by scans)
+        Property NumVulnerabilities = 0
+        Property NumServices = 0
+        Property NumConnections = 0
+        Property ExploitationState = "None"  # None | Initial | Escalated | CnC
+        
+        # Network info (discovered by scans)
+        Property OS = "Unknown"
+        Property HostName = "unknown"
+        Property MACAddress = "00:00:00:00:00:00"
+    }
 }

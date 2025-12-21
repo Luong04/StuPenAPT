@@ -1,50 +1,98 @@
 System AttackRepertoire {
-    Component {
-        name = "AttackSteps"
-        Interface {
-            name = "ssh_bruteforce"
-            Property {
-                name = "MitreAttck"
-                value = "T1110"
-            }
+    Component AttackSteps {
+        Interface PingSweep {
+            Property MitreAttck = "T1018"
+            Property Guard = "can_ping_sweep"
+            Property Run = "run_ping_sweep"
         }
-        Interface {
-            name = "service_scan"
-            Property {
-                name = "MitreAttck" 
-                value = "T1046"
-            }
+        
+        Interface PortScan {
+            Property MitreAttck = "T1046"
+            Property Guard = "can_port_scan"
+            Property Run = "run_port_scan"
+        }
+        
+        Interface ServiceEnum {
+            Property MitreAttck = "T1046"
+            Property Guard = "can_service_enum"
+            Property Run = "run_service_enum"
+        }
+        
+        Interface VulnScan {
+            Property MitreAttck = "T1595.002"
+            Property Guard = "can_vuln_scan"
+            Property Run = "run_vuln_scan"
+        }
+
+        Interface ExploitSMB {
+            Property MitreAttck = "T1210"
+            Property Guard = "can_exploit_smb"
+            Property Run = "run_exploit_smb"
+        }
+        
+        Interface ExploitSSH {
+            Property MitreAttck = "T1110.001"
+            Property Guard = "can_exploit_ssh"
+            Property Run = "run_exploit_ssh"
+        }
+        
+        Interface PrivEsc {
+            Property MitreAttck = "T1068"
+            Property Guard = "can_priv_esc"
+            Property Run = "run_priv_esc"
+        }
+        
+        Interface CredDump {
+            Property MitreAttck = "T1003"
+            Property Guard = "can_cred_dump"
+            Property Run = "run_cred_dump"
         }
     }
     
-    Component {
-        name = "AttackPatterns"
-        Interface {
-            name = "network_credential_attack"
-            Property {
-                name = "AttackVector"
-                value = "Network"
-            }
-            Property {
-                name = "AttackComplexity"
-                value = "Low"
-            }
-            Property {
-                name = "RequiredPrivileges"
-                value = "None"
-            }
-            Property {
-                name = "UserInteraction"
-                value = "None"
-            }
-            Property {
-                name = "RunningTime"
-                value = "Short"
-            }
-            Property {
-                name = "Steps"
-                value = "[service_scan, ssh_bruteforce]"
-            }
+    Component AttackPatterns {
+        Interface BasicRecon {
+            Property AttackVector = "NETWORK"
+            Property AttackComplexity = "LOW"
+            Property RequiredPrivileges = "NONE"
+            Property UserInteraction = "NONE"
+            Property RunningTime = "SHORT"
+            Property Steps = "PingSweep, PortScan"
+        }
+
+        Interface FullServiceScan {
+            Property AttackVector = "NETWORK"
+            Property AttackComplexity = "LOW"
+            Property RequiredPrivileges = "NONE"
+            Property UserInteraction = "NONE"
+            Property RunningTime = "MEDIUM"
+            Property Steps = "PortScan, ServiceEnum, VulnScan"
+        }
+
+        Interface SMBExploitChain {
+            Property AttackVector = "NETWORK"
+            Property AttackComplexity = "MEDIUM"
+            Property RequiredPrivileges = "NONE"
+            Property UserInteraction = "NONE"
+            Property RunningTime = "MEDIUM"
+            Property Steps = "ServiceEnum, ExploitSMB, PrivEsc"
+        }
+        
+        Interface SSHBruteforce {
+            Property AttackVector = "NETWORK"
+            Property AttackComplexity = "LOW"
+            Property RequiredPrivileges = "NONE"
+            Property UserInteraction = "NONE"
+            Property RunningTime = "LONG"
+            Property Steps = "ServiceEnum, ExploitSSH"
+        }
+
+        Interface PostExploitChain {
+            Property AttackVector = "LOCAL"
+            Property AttackComplexity = "MEDIUM"
+            Property RequiredPrivileges = "LOW"
+            Property UserInteraction = "NONE"
+            Property RunningTime = "MEDIUM"
+            Property Steps = "PrivEsc, CredDump"
         }
     }
 }

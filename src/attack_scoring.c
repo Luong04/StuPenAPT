@@ -114,7 +114,7 @@ enum ATTACK_COMPLEXITY str_to_attack_complexity(char *a_c_str)
     }
     else if(strcmp(a_c_str,"High") == 0)
     {
-	return AC_Low;
+	return AC_High;
     }
     else
     {

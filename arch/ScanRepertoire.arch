@@ -1,3 +1,43 @@
-System ScanRepertoire{
-    Components
+System ScanRepertoire {
+    Component Scans {
+        Interface QuickScan {
+            Property MitreAttck = "T1046"
+            Property ScanRange = "NETWORK"
+            Property ScanTargets = "SUBNET"
+            Property ScanDuration = "SHORT"
+            Property ScanComplexity = "LOW"
+        }
+        
+        Interface FullScan {
+            Property MitreAttck = "T1046"
+            Property ScanRange = "NETWORK"
+            Property ScanTargets = "MULTI_SUBNET"
+            Property ScanDuration = "LONG"
+            Property ScanComplexity = "HIGH"
+        }
+        
+        Interface FullActiveCrawl {
+            Property MitreAttck = "T1595.002"
+            Property ScanRange = "INTERNET"
+            Property ScanTargets = "SINGLE"
+            Property ScanDuration = "LONG"
+            Property ScanComplexity = "HIGH"
+        }
+        
+        Interface LightCrawl {
+            Property MitreAttck = "T1595.002"
+            Property ScanRange = "INTERNET"
+            Property ScanTargets = "SINGLE"
+            Property ScanDuration = "SHORT"
+            Property ScanComplexity = "LOW"
+        }
+        
+        Interface DefaultCrawl {
+            Property MitreAttck = "T1595.002"
+            Property ScanRange = "INTERNET"
+            Property ScanTargets = "SINGLE"
+            Property ScanDuration = "MEDIUM"
+            Property ScanComplexity = "MEDIUM"
+        }
+    }
 }

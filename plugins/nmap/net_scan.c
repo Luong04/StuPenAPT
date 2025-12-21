@@ -297,67 +297,95 @@ static void parse_nmap_port_field(char *port_field, struct arc_model *a_m, char 
     }
 }
 
-bool net_scan_guard(struct arc_model *a_m, char *args)
-{
-    bool res = true;
-    struct arc_value target_ipr = arc_model_get_property(a_m,"IPR");
-    if(target_ipr.type != V_STRING)
-    {
-		fprintf(stderr,"[nmap] String Property:IPR is required to peform a NetWorkScan\n");
-		res = false;
+static void parse_nmap_output(char *output, struct arc_model *a_m) {
+    size_t num_skip = 0;
+    char *line = next_line(output, &num_skip);
+    output += num_skip;
+    while (line && num_skip > 0) {
+        if (line[0] != '#') {
+            parse_nmap_grepable(line, a_m);
+        }
+        num_skip = 0;
+        line = next_line(output, &num_skip);
+        output += num_skip;
     }
+}
 
-    free(target_ipr.v_str);
+
+bool full_scan(struct arc_model *a_m, char *args) {
+    bool res = true;
+    struct arc_value target_ipr = arc_model_get_property(a_m, "IPR");
+    if (target_ipr.type != V_STRING) {
+        fprintf(stderr, "[nmap] String Property:IPR is required to perform a FullScan\n");
+        res = false;
+    } else {
+        struct tool_runner tool_runner;
+        tool_runner_init(&tool_runner, "nmap", 5);
+        
+        tool_runner_add_arg(&tool_runner, target_ipr.v_str);
+        tool_runner_add_arg(&tool_runner, "-sS");
+        tool_runner_add_arg(&tool_runner, "-sC");
+        tool_runner_add_arg(&tool_runner, "-sV");
+        tool_runner_add_arg(&tool_runner, "-O");
+        tool_runner_add_arg(&tool_runner, "-p-");
+        tool_runner_add_arg(&tool_runner, "-T4");
+        tool_runner_add_arg(&tool_runner, "-oG");
+        tool_runner_add_arg(&tool_runner, "-");
+        
+        tool_runner_run(&tool_runner);
+        parse_nmap_output(tool_runner.output, a_m);
+        tool_runner_destroy(&tool_runner);
+        free(target_ipr.v_str);
+    }
     return res;
 }
 
-bool net_scan(struct arc_model *a_m, char *args)
-{
-    /* nmap TargetIPRange -oG - */
-
+bool quick_scan(struct arc_model *a_m, char *args) {
     bool res = true;
-    struct arc_value target_ipr = arc_model_get_property(a_m,"IPR");
-    if(target_ipr.type != V_STRING)
-    {
-		fprintf(stderr,"[nmap] String Property:IPR is required to peform a NetWorkScan\n");
-		res = false;
+    struct arc_value target_ipr = arc_model_get_property(a_m, "IPR");
+    if (target_ipr.type != V_STRING) {
+        fprintf(stderr, "[nmap] String Property:IPR is required to perform a QuickScan\n");
+        res = false;
+    } else {
+        struct tool_runner tool_runner;
+        tool_runner_init(&tool_runner, "nmap", 7);
+        
+        tool_runner_add_arg(&tool_runner, target_ipr.v_str);
+        tool_runner_add_arg(&tool_runner, "-T4");
+        tool_runner_add_arg(&tool_runner, "--top-ports");
+        tool_runner_add_arg(&tool_runner, "100");
+        tool_runner_add_arg(&tool_runner, "--open");
+        tool_runner_add_arg(&tool_runner, "-oG");
+        tool_runner_add_arg(&tool_runner, "-");
+        
+        tool_runner_run(&tool_runner);
+        parse_nmap_output(tool_runner.output, a_m);
+        tool_runner_destroy(&tool_runner);
+        free(target_ipr.v_str);
     }
-    else
-    {
-		
-
-		
-		struct tool_runner tool_runner;
-		tool_runner_init(&tool_runner, "nmap", 4);
-		
-		tool_runner_add_arg(&tool_runner,target_ipr.v_str);
-		tool_runner_add_arg(&tool_runner,"-A");
-		tool_runner_add_arg(&tool_runner,"-oG");
-		tool_runner_add_arg(&tool_runner,"-");
-		
-		tool_runner_run(&tool_runner);
-		//tool_runner_print_summary(&tool_runner);;
-		char *output = tool_runner.output;
-		size_t num_skip = 0;
-		char *line = next_line(output, &num_skip);
-		output+=num_skip;
-		while(line && num_skip > 0)
-		{
-	    
-			if(line[0]!='#')
-			{
-				parse_nmap_grepable(line, a_m);
-			}
-	    
-			num_skip = 0;
-			line = next_line(output, &num_skip);
-			output+=num_skip;
-		}
-		tool_runner_destroy(&tool_runner);
-		free(target_ipr.v_str);
-    }
-	
-
-    
     return res;
+}
+
+bool can_full_scan(struct arc_model *a_m, char *args)
+{
+    struct arc_value target_ipr = arc_model_get_property(a_m, "IPR");
+    bool can_scan = (target_ipr.type == V_STRING && target_ipr.v_str != NULL);
+    
+    if (can_scan) {
+        free(target_ipr.v_str);
+    }
+    
+    return can_scan;
+}
+
+bool can_quick_scan(struct arc_model *a_m, char *args)
+{
+    struct arc_value target_ipr = arc_model_get_property(a_m, "IPR");
+    bool can_scan = (target_ipr.type == V_STRING && target_ipr.v_str != NULL);
+    
+    if (can_scan) {
+        free(target_ipr.v_str);
+    }
+    
+    return can_scan;
 }

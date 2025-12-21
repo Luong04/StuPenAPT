@@ -7,7 +7,8 @@
 
 static char *mapping[] =
 {
-    "NetworkScan:net_scan",
+    "FullScan:full_scan",
+    "QuickScan:quick_scan",
 };
 
 const char *tool_name(void)

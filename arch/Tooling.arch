@@ -1,16 +1,41 @@
 System Tooling {
-    Component {
-        name = "nmap_scanner"
-        Property {
-            name = "PluginPath"
-            value = "./plugins/nmap_scanner.so"
-        }
+    Component nmap {
+        Property ToolPlugin = "plugins/nmap/libnmap.so"
     }
-    Component {
-        name = "hydra_bruteforce" 
-        Property {
-            name = "PluginPath"
-            value = "./plugins/hydra_bruteforce.so"
-        }
+    
+    Component oracle {
+        Property ToolPlugin = "plugins/oracle/liboracle.so"
+    }
+    
+    Component katana {
+        Property ToolPlugin = "plugins/katana/libkatana.so"
+    }
+
+    Component httpx {
+        Property ToolPlugin = "plugins/httpx/libhttpx.so"
+    }
+
+    Component nuclei {
+        Property ToolPlugin = "plugins/nuclei/libnuclei.so"
+    }
+
+    Component ffuf {
+        Property ToolPlugin = "plugins/ffuf/libffuf.so" 
+    }
+
+    Component uro {
+        Property ToolPlugin = "plugins/uro/liburo.so"
+    }
+
+    Component waybackurls {
+        Property ToolPlugin = "plugins/waybackurls/libwaybackurls.so"
+    }
+
+    Component gau {
+        Property ToolPlugin = "plugins/gau/libgau.so"
+    }
+
+    Component gf {
+        Property ToolPlugin = "plugins/gf/libgf.so"
     }
 }
