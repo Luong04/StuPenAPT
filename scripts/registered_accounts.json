@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-11T10:30:01.139480",
+  "url": "https://preview.owasp-juice.shop/#/",
+  "credentials": {
+    "username": "edwardsdennis",
+    "email": "edwardsdennis_761@gmail.com",
+    "password": "4KpST7OE0n8Q!Aa1"
+  },
+  "token": null,
+  "status": "success",
+  "filled_fields": [
+    {
+      "name": "emailControl",
+      "type": "email",
+      "value": "edwardsdennis_761@gmail.com"
+    },
+    {
+      "name": "securityAnswerControl",
+      "type": "firstname",
+      "value": "Jennifer"
+    },
+    {
+      "name": "passwordControl",
+      "type": "password",
+      "value": "***"
+    },
+    {
+      "name": "repeatPasswordControl",
+      "type": "password",
+      "value": "***"
+    }
+  ]
+}

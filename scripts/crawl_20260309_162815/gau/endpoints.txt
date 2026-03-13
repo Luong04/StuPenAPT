@@ -1,0 +1,16 @@
+https://preview.owasp-juice.shop/
+https://preview.owasp-juice.shop/api/Challenges
+https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board
+https://preview.owasp-juice.shop/api/Feedbacks/
+https://preview.owasp-juice.shop/api/Hints/
+https://preview.owasp-juice.shop/api/Quantitys/
+https://preview.owasp-juice.shop/ftp/eastere.gg
+https://preview.owasp-juice.shop/rest/admin/application-configuration
+https://preview.owasp-juice.shop/rest/admin/application-version
+https://preview.owasp-juice.shop/rest/languages
+https://preview.owasp-juice.shop/rest/memories/
+https://preview.owasp-juice.shop/rest/products/search
+https://preview.owasp-juice.shop/rest/user/whoami
+https://preview.owasp-juice.shop/robots.txt
+https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PgmS6tG
+https://preview.owasp-juice.shop/.well-known/security.txt

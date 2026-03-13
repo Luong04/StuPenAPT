@@ -1,0 +1,649 @@
+>> [18:47:17] [GET] http://preview.owasp-juice.shop
+   CMD: arjun -u "http://preview.owasp-juice.shop" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:47:40] [GET] http://preview.owasp-juice.shop/
+   CMD: arjun -u "http://preview.owasp-juice.shop/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:48:01] [GET] http://preview.owasp-juice.shop/-
+   CMD: arjun -u "http://preview.owasp-juice.shop/-" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_-.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:48:28] [GET] http://preview.owasp-juice.shop/%27+L%28i%5B11%5D%7C%7Cg%5Bw.toLowerCase%28%29%5D%29+%27
+   CMD: arjun -u "http://preview.owasp-juice.shop/%27+L%28i%5B11%5D%7C%7Cg%5Bw.toLowerCase%28%29%5D%29+%27" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop__27_L_28i_5B11_5D_7C_7Cg_5Bw.toLowerCase_28_29_5D_29__27.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:48:59] [GET] http://preview.owasp-juice.shop/2fa/enter
+   CMD: arjun -u "http://preview.owasp-juice.shop/2fa/enter" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_2fa_enter.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:49:23] [GET] http://preview.owasp-juice.shop/%5C/index.html
+   CMD: arjun -u "http://preview.owasp-juice.shop/%5C/index.html" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop__5C_index.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:49:45] [GET] http://preview.owasp-juice.shop/%7B%7Bhref%7D%7D
+   CMD: arjun -u "http://preview.owasp-juice.shop/%7B%7Bhref%7D%7D" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop__7B_7Bhref_7D_7D.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:50:11] [GET] http://preview.owasp-juice.shop/address/create
+   CMD: arjun -u "http://preview.owasp-juice.shop/address/create" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_address_create.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:50:31] [GET] http://preview.owasp-juice.shop/address/edit/
+   CMD: arjun -u "http://preview.owasp-juice.shop/address/edit/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_address_edit_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:50:51] [GET] http://preview.owasp-juice.shop/address/saved
+   CMD: arjun -u "http://preview.owasp-juice.shop/address/saved" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_address_saved.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:51:11] [GET] http://preview.owasp-juice.shop/address/select
+   CMD: arjun -u "http://preview.owasp-juice.shop/address/select" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_address_select.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:51:31] [GET] http://preview.owasp-juice.shop/api/%5C%22/
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/%5C%22/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api__5C_22_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:51:48] [GET] http://preview.owasp-juice.shop/api/%5C%22/ftp/legal.md%5C%22
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/%5C%22/ftp/legal.md%5C%22" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api__5C_22_ftp_legal.md_5C_22.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:52:06] [GET] http://preview.owasp-juice.shop/api/Addresss
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Addresss" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Addresss.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:52:12] [GET] http://preview.owasp-juice.shop/api/BasketItems
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/BasketItems" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_BasketItems.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:52:31] [GET] http://preview.owasp-juice.shop/api/Cards
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Cards" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Cards.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:52:37] [GET] http://preview.owasp-juice.shop/api/Challenges
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Challenges" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Challenges.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:53:29] [GET] http://preview.owasp-juice.shop/api/Challenges/
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Challenges/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Challenges_.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:54:04] [GET] http://preview.owasp-juice.shop/api/Complaints
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Complaints" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Complaints.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:54:11] [GET] http://preview.owasp-juice.shop/api/Deliverys
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Deliverys" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Deliverys.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:54:25] [GET] http://preview.owasp-juice.shop/api/Feedbacks
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Feedbacks" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Feedbacks.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:54:46] [GET] http://preview.owasp-juice.shop/api/Hints
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Hints" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Hints.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [18:55:21] [GET] http://preview.owasp-juice.shop/api/PrivacyRequests
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/PrivacyRequests" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_PrivacyRequests.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:55:28] [GET] http://preview.owasp-juice.shop/api/Products
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Products" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Products.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:56:07] [GET] http://preview.owasp-juice.shop/api/Quantitys
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Quantitys" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Quantitys.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:56:27] [GET] http://preview.owasp-juice.shop/api/Recycles
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Recycles" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Recycles.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:56:33] [GET] http://preview.owasp-juice.shop/api/SecurityAnswers
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/SecurityAnswers" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_SecurityAnswers.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:56:39] [GET] http://preview.owasp-juice.shop/api/SecurityQuestions
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/SecurityQuestions" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_SecurityQuestions.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:56:58] [GET] http://preview.owasp-juice.shop/api/Users
+   CMD: arjun -u "http://preview.owasp-juice.shop/api/Users" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Users.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:57:04] [GET] http://preview.owasp-juice.shop/application/vnd.ms-word.do
+   CMD: arjun -u "http://preview.owasp-juice.shop/application/vnd.ms-word.do" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_application_vnd.ms-word.do.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:57:24] [GET] http://preview.owasp-juice.shop/application/vnd.openxmlformats-officedocument.wordprocessingml.do
+   CMD: arjun -u "http://preview.owasp-juice.shop/application/vnd.openxmlformats-officedocument.wordprocessingml.do" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_application_vnd.openxmlformats-officedocument.wordprocessingml.do.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:57:44] [GET] http://preview.owasp-juice.shop/assets
+   CMD: arjun -u "http://preview.owasp-juice.shop/assets" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_assets.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:58:09] [GET] http://preview.owasp-juice.shop/Edge/
+   CMD: arjun -u "http://preview.owasp-juice.shop/Edge/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_Edge_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:58:36] [GET] http://preview.owasp-juice.shop/ftp
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:58:42] [GET] http://preview.owasp-juice.shop/ftp/acquisitions.md
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/acquisitions.md" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_acquisitions.md.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [18:58:47] [GET] http://preview.owasp-juice.shop/ftp/announcement_encrypted.md
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/announcement_encrypted.md" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_announcement_encrypted.md.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:11] [GET] http://preview.owasp-juice.shop/ftp/coupons_2013.md.bak
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/coupons_2013.md.bak" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_coupons_2013.md.bak.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:16] [GET] http://preview.owasp-juice.shop/ftp/eastere.gg
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/eastere.gg" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_eastere.gg.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:22] [GET] http://preview.owasp-juice.shop/ftp/encrypt.py
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/encrypt.py" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_encrypt.py.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:30] [GET] http://preview.owasp-juice.shop/ftp/encrypt.pyc
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/encrypt.pyc" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_encrypt.pyc.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:36] [GET] http://preview.owasp-juice.shop/ftp/incident-support.kdbx
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/incident-support.kdbx" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_incident-support.kdbx.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+>> [19:00:37] [GET] http://preview.owasp-juice.shop/ftp/legal.md
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/legal.md" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_legal.md.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:43] [GET] http://preview.owasp-juice.shop/ftp/package.json
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/package.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_package.json.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:49] [GET] http://preview.owasp-juice.shop/ftp/package.json.bak
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/package.json.bak" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_package.json.bak.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:00:54] [GET] http://preview.owasp-juice.shop/ftp/package-lock.json
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/package-lock.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_package-lock.json.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:01:00] [GET] http://preview.owasp-juice.shop/ftp/package-lock.json.bak
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/package-lock.json.bak" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_package-lock.json.bak.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:01:05] [GET] http://preview.owasp-juice.shop/ftp/quarantine
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/quarantine" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_quarantine.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:01:23] [GET] http://preview.owasp-juice.shop/ftp/suspicious_errors.yml
+   CMD: arjun -u "http://preview.owasp-juice.shop/ftp/suspicious_errors.yml" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_suspicious_errors.yml.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:01:29] [GET] http://preview.owasp-juice.shop/index
+   CMD: arjun -u "http://preview.owasp-juice.shop/index" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_index.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:01:49] [GET] http://preview.owasp-juice.shop/'+L(i[8])+'
+   CMD: arjun -u "http://preview.owasp-juice.shop/'+L(i[8])+'" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop___L_i_8____.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:02:07] [GET] http://preview.owasp-juice.shop/lib/codemirror
+   CMD: arjun -u "http://preview.owasp-juice.shop/lib/codemirror" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_lib_codemirror.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:02:27] [GET] http://preview.owasp-juice.shop/media
+   CMD: arjun -u "http://preview.owasp-juice.shop/media" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_media.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:02:48] [GET] http://preview.owasp-juice.shop/meta
+   CMD: arjun -u "http://preview.owasp-juice.shop/meta" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_meta.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:03:09] [GET] http://preview.owasp-juice.shop/nachrichten
+   CMD: arjun -u "http://preview.owasp-juice.shop/nachrichten" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_nachrichten.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [19:03:34] [GET] http://preview.owasp-juice.shop/promotion
+   CMD: arjun -u "http://preview.owasp-juice.shop/promotion" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_promotion.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:03:44] [GET] http://preview.owasp-juice.shop/redirect?to=http
+   CMD: arjun -u "http://preview.owasp-juice.shop/redirect?to=http" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_redirect_to_http.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:03:56] [GET] http://preview.owasp-juice.shop/rest/admin
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/admin" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_admin.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:12] [GET] http://preview.owasp-juice.shop/rest/admin/application-configuration
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/admin/application-configuration" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_admin_application-configuration.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:23] [GET] http://preview.owasp-juice.shop/rest/admin/application-version
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/admin/application-version" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_admin_application-version.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:29] [GET] http://preview.owasp-juice.shop/rest/captcha
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/captcha" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_captcha.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:35] [GET] http://preview.owasp-juice.shop/rest/chatbot
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/chatbot" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_chatbot.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:51] [GET] http://preview.owasp-juice.shop/rest/continue-code
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:04:56] [GET] http://preview.owasp-juice.shop/rest/continue-code/apply/
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code/apply/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code_apply_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:05:11] [GET] http://preview.owasp-juice.shop/rest/continue-code-findIt
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code-findIt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code-findIt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:05:17] [GET] http://preview.owasp-juice.shop/rest/continue-code-findIt/apply/
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code-findIt/apply/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code-findIt_apply_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:05:32] [GET] http://preview.owasp-juice.shop/rest/continue-code-fixIt
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code-fixIt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code-fixIt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:05:38] [GET] http://preview.owasp-juice.shop/rest/continue-code-fixIt/apply/
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/continue-code-fixIt/apply/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_continue-code-fixIt_apply_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:05:54] [GET] http://preview.owasp-juice.shop/rest/country-mapping
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/country-mapping" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_country-mapping.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+>> [19:05:55] [GET] http://preview.owasp-juice.shop/rest/deluxe-membership
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/deluxe-membership" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_deluxe-membership.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [19:05:56] [GET] http://preview.owasp-juice.shop/rest/image-captcha/
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/image-captcha/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_image-captcha_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:06:02] [GET] http://preview.owasp-juice.shop/rest/Languages
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/Languages" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_Languages.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:06:27] [GET] http://preview.owasp-juice.shop/rest/memories
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/memories" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_memories.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [19:06:50] [GET] http://preview.owasp-juice.shop/rest/Memories
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/Memories" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_Memories.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [19:07:17] [GET] http://preview.owasp-juice.shop/rest/order-history
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/order-history" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_order-history.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [23:13:09] [GET] http://preview.owasp-juice.shop/rest/products
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/products" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_products.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:13:25] [GET] http://preview.owasp-juice.shop/rest/products/search
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/products/search" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_products_search.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:13:46] [GET] http://preview.owasp-juice.shop/rest/repeat-notification
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/repeat-notification" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_repeat-notification.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:00] [GET] http://preview.owasp-juice.shop/rest/saveLoginIp
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/saveLoginIp" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_saveLoginIp.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:05] [GET] http://preview.owasp-juice.shop/rest/track-order
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/track-order" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_track-order.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:20] [GET] http://preview.owasp-juice.shop/rest/user
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:35] [GET] http://preview.owasp-juice.shop/rest/user/authentication-details
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/authentication-details" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_authentication-details.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:41] [GET] http://preview.owasp-juice.shop/rest/user/authentication-details/
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/authentication-details/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_authentication-details_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:14:46] [GET] http://preview.owasp-juice.shop/rest/user/change-password
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/change-password" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_change-password.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:15:01] [GET] http://preview.owasp-juice.shop/rest/user/change-password?current=
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/change-password?current=" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_change-password_current_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:15:11] [GET] http://preview.owasp-juice.shop/rest/user/login
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/login" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_login.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:15:27] [GET] http://preview.owasp-juice.shop/rest/user/reset-password
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/reset-password" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_reset-password.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+[1;91m[-][0m Target has a rate limit in place, try --stable switch
+>> [23:15:40] [GET] http://preview.owasp-juice.shop/rest/user/security-question
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/security-question" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_security-question.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:15:53] [GET] http://preview.owasp-juice.shop/rest/user/security-question?email=
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/security-question?email=" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_security-question_email_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:03] [GET] http://preview.owasp-juice.shop/rest/user/whoami
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/user/whoami" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_user_whoami.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:13] [GET] http://preview.owasp-juice.shop/rest/wallet/balance
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/wallet/balance" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_wallet_balance.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:23] [GET] http://preview.owasp-juice.shop/rest/web3
+   CMD: arjun -u "http://preview.owasp-juice.shop/rest/web3" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_web3.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:45] [GET] http://preview.owasp-juice.shop/robots.txt
+   CMD: arjun -u "http://preview.owasp-juice.shop/robots.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_robots.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:51] [GET] http://preview.owasp-juice.shop/security.txt
+   CMD: arjun -u "http://preview.owasp-juice.shop/security.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_security.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:16:56] [GET] http://preview.owasp-juice.shop/snippets/fixes
+   CMD: arjun -u "http://preview.owasp-juice.shop/snippets/fixes" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_snippets_fixes.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:17:01] [GET] http://preview.owasp-juice.shop/snippets/verdict
+   CMD: arjun -u "http://preview.owasp-juice.shop/snippets/verdict" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_snippets_verdict.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:17:06] [GET] http://preview.owasp-juice.shop/text/
+   CMD: arjun -u "http://preview.owasp-juice.shop/text/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_text_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:17:41] [GET] http://preview.owasp-juice.shop/track-result/new
+   CMD: arjun -u "http://preview.owasp-juice.shop/track-result/new" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_track-result_new.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:18:00] [GET] http://preview.owasp-juice.shop/Trident/
+   CMD: arjun -u "http://preview.owasp-juice.shop/Trident/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_Trident_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:18:23] [GET] http://preview.owasp-juice.shop/video
+   CMD: arjun -u "http://preview.owasp-juice.shop/video" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_video.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+>> [23:19:20] [GET] http://preview.owasp-juice.shop/Video
+   CMD: arjun -u "http://preview.owasp-juice.shop/Video" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_Video.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;93m[!][0m URL doesn't seem to be a webpage. Skipping.
+>> [23:22:05] [GET] http://preview.owasp-juice.shop/webmaster
+   CMD: arjun -u "http://preview.owasp-juice.shop/webmaster" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_webmaster.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:22:30] [GET] http://preview.owasp-juice.shop/webmasters
+   CMD: arjun -u "http://preview.owasp-juice.shop/webmasters" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_webmasters.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:22:53] [GET] http://preview.owasp-juice.shop/webpack.manifest.json
+   CMD: arjun -u "http://preview.owasp-juice.shop/webpack.manifest.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_webpack.manifest.json.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:23:14] [GET] http://preview.owasp-juice.shop/.well-known/security.txt
+   CMD: arjun -u "http://preview.owasp-juice.shop/.well-known/security.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_security.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:23:32] [GET] http://preview.owasp-juice.shop/xml/xml
+   CMD: arjun -u "http://preview.owasp-juice.shop/xml/xml" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_xml_xml.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:23:45] [GET] https://demo.owasp-juice.shop
+   CMD: arjun -u "https://demo.owasp-juice.shop" -m GET -oJ "./arjun_results/20260309_184717/GET/demo.owasp-juice.shop.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: demo.owasp-juice.shop
+[1;91m[-][0m Encountered an error: demo.owasp-juice.shop
+>> [23:24:14] [GET] https://demo.owasp-juice.shop/
+   CMD: arjun -u "https://demo.owasp-juice.shop/" -m GET -oJ "./arjun_results/20260309_184717/GET/demo.owasp-juice.shop_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:24:37] [GET] https://owasp-juice.shop
+   CMD: arjun -u "https://owasp-juice.shop" -m GET -oJ "./arjun_results/20260309_184717/GET/owasp-juice.shop.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:25:06] [GET] https://preview.owasp-juice.shop/
+   CMD: arjun -u "https://preview.owasp-juice.shop/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:25:28] [GET] https://preview.owasp-juice.shop/ads.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/ads.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ads.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:25:49] [GET] https://preview.owasp-juice.shop/api/Challenges
+   CMD: arjun -u "https://preview.owasp-juice.shop/api/Challenges" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Challenges.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:26:58] [GET] https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board
+   CMD: arjun -u "https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Challenges__name_Score_20Board.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [23:27:46] [GET] https://preview.owasp-juice.shop/api/Quantitys/
+   CMD: arjun -u "https://preview.owasp-juice.shop/api/Quantitys/" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_api_Quantitys_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:28:29] [GET] https://preview.owasp-juice.shop/app-ads.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/app-ads.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_app-ads.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:28:50] [GET] https://preview.owasp-juice.shop/ftp/eastere.gg
+   CMD: arjun -u "https://preview.owasp-juice.shop/ftp/eastere.gg" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_ftp_eastere.gg.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:28:59] [GET] https://preview.owasp-juice.shop/rest/admin/application-configuration
+   CMD: arjun -u "https://preview.owasp-juice.shop/rest/admin/application-configuration" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_admin_application-configuration.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:29:11] [GET] https://preview.owasp-juice.shop/rest/admin/application-version
+   CMD: arjun -u "https://preview.owasp-juice.shop/rest/admin/application-version" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_admin_application-version.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:29:20] [GET] https://preview.owasp-juice.shop/rest/languages
+   CMD: arjun -u "https://preview.owasp-juice.shop/rest/languages" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_languages.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Encountered an error: preview.owasp-juice.shop
+>> [23:29:51] [GET] https://preview.owasp-juice.shop/rest/products/search
+   CMD: arjun -u "https://preview.owasp-juice.shop/rest/products/search" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_rest_products_search.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:30:12] [GET] https://preview.owasp-juice.shop/robots.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/robots.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_robots.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:30:24] [GET] https://preview.owasp-juice.shop/sitemap.xml
+   CMD: arjun -u "https://preview.owasp-juice.shop/sitemap.xml" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_sitemap.xml.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:30:46] [GET] https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PgmS6tG
+   CMD: arjun -u "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PgmS6tG" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_socket.io__EIO_4_transport_polling_t_PgmS6tG.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:30:48] [GET] https://preview.owasp-juice.shop/.well-known/ai-plugin.json
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/ai-plugin.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_ai-plugin.json.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:31:09] [GET] https://preview.owasp-juice.shop/.well-known/assetlinks.json
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/assetlinks.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_assetlinks.json.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:31:30] [GET] https://preview.owasp-juice.shop/.well-known/dnt-policy.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/dnt-policy.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_dnt-policy.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+[1;91m[-][0m Target is unable to process requests, try --stable switch
+>> [23:32:03] [GET] https://preview.owasp-juice.shop/.well-known/en, ar, az, bg, bn, ca, cs, da, de, ga, el, es, et, fi, fr, ka, he, hi, hu, id, it, ja, ko, lv, my, nl, no, pl, pt, ro, ru, si, sv, th, tr, uk, zh
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/en, ar, az, bg, bn, ca, cs, da, de, ga, el, es, et, fi, fr, ka, he, hi, hu, id, it, ja, ko, lv, my, nl, no, pl, pt, ro, ru, si, sv, th, tr, uk, zh" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_en__ar__az__bg__bn__ca__cs__da__de__ga__el__es__et__fi__fr__ka_.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:32:13] [GET] https://preview.owasp-juice.shop/.well-known/gpc.json
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/gpc.json" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_gpc.json.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:32:23] [GET] https://preview.owasp-juice.shop/.well-known/nodeinfo
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/nodeinfo" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_nodeinfo.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:32:33] [GET] https://preview.owasp-juice.shop/.well-known/openid-configuration
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/openid-configuration" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_openid-configuration.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:32:43] [GET] https://preview.owasp-juice.shop/.well-known/security.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/security.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_security.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:32:54] [GET] https://preview.owasp-juice.shop/.well-known/Thu, 10 Jul 2025 15:27:45 GMT
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/Thu, 10 Jul 2025 15:27:45 GMT" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_Thu__10_Jul_2025_15_27_45_GMT.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:33:04] [GET] https://preview.owasp-juice.shop/.well-known/trust.txt
+   CMD: arjun -u "https://preview.owasp-juice.shop/.well-known/trust.txt" -m GET -oJ "./arjun_results/20260309_184717/GET/preview.owasp-juice.shop_.well-known_trust.txt.json" -t 30 -d 0 -T 15 -c 250 -q
+Traceback (most recent call last):
+  File "/home/pikachu/.local/bin/arjun", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 204, in main
+    these_params = initialize(request, wordlist, single_url=is_single)
+  File "/home/pikachu/.local/share/pipx/venvs/arjun/lib/python3.13/site-packages/arjun/__main__.py", line 135, in initialize
+    print('%s Target returned HTTP %i, this may cause problems.' % (bad, request.status_code))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'status_code'
+   FAILED
+>> [23:33:14] [GET] https://pwning.owasp-juice.shop
+   CMD: arjun -u "https://pwning.owasp-juice.shop" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:33:34] [GET] https://pwning.owasp-juice.shop/
+   CMD: arjun -u "https://pwning.owasp-juice.shop/" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:33:42] [GET] https://pwning.owasp-juice.shop/_
+   CMD: arjun -u "https://pwning.owasp-juice.shop/_" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop__.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:33:55] [GET] https://pwning.owasp-juice.shop/antora/companion-guide/snapshot/part3/donations.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/antora/companion-guide/snapshot/part3/donations.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_antora_companion-guide_snapshot_part3_donations.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:34:04] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/appendix/lyrics.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/appendix/lyrics.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_appendix_lyrics.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:34:24] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/appendix/solutions.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/appendix/solutions.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_appendix_solutions.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:35:29] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/index.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/index.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_index.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:35:42] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/introduction/about.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/introduction/about.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_introduction_about.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:36:03] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/introduction/architecture.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/introduction/architecture.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_introduction_architecture.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:36:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/introduction/motivation.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/introduction/motivation.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_introduction_motivation.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:36:28] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/introduction/README.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/introduction/README.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_introduction_README.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:36:42] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/categories.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/categories.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_categories.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:36:56] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/challenges.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/challenges.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_challenges.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:37:27] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/happy-path.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/happy-path.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_happy-path.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:37:45] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/README.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/README.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_README.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:37:57] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/rules.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/rules.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_rules.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:38:14] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part1/running.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part1/running.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part1_running.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-access-control.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-access-control.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_broken-access-control.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-anti-automation.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-anti-automation.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_broken-anti-automation.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-authentication.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/broken-authentication.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_broken-authentication.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/cryptographic-issues.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/cryptographic-issues.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_cryptographic-issues.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/improper-input-validation.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/improper-input-validation.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_improper-input-validation.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:15] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/injection.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/injection.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_injection.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:16] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/insecure-deserialization.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/insecure-deserialization.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_insecure-deserialization.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:16] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/miscellaneous.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/miscellaneous.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_miscellaneous.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:16] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/observability-failures.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/observability-failures.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_observability-failures.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:16] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_README.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:16] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/score-board.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/score-board.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_score-board.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:17] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/security-misconfiguration.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/security-misconfiguration.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_security-misconfiguration.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:17] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/security-through-obscurity.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/security-through-obscurity.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_security-through-obscurity.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:17] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/sensitive-data-exposure.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/sensitive-data-exposure.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_sensitive-data-exposure.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:17] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/unvalidated-redirects.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/unvalidated-redirects.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_unvalidated-redirects.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:43:33] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/vulnerable-components.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/vulnerable-components.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_vulnerable-components.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:44:02] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/xss.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/xss.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_xss.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:44:17] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part2/xxe.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part2/xxe.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part2_xxe.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:44:38] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/codebase.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/codebase.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_codebase.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:45:03] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_contribution.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:45:39] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/donations.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/donations.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_donations.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:45:53] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/feedback.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/feedback.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_feedback.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:46:05] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/README.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/README.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_README.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:46:27] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/translation.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/translation.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_translation.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:46:39] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part3/universities.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part3/universities.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part3_universities.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:47:04] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/ctf.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/ctf.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_ctf.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:47:24] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/customization.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/customization.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_customization.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:47:58] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_integration.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:48:12] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/monitoring.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/monitoring.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_monitoring.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:48:28] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/multi-juicer.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/multi-juicer.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_multi-juicer.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:48:41] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/trainers.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/trainers.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_trainers.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:49:08] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/troubleshooting.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/troubleshooting.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_troubleshooting.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:49:23] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part4/vendors.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part4/vendors.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part4_vendors.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:49:44] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part5/chatbot.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part5/chatbot.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part5_chatbot.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:50:20] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part5/cheat-detection.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part5/cheat-detection.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part5_cheat-detection.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:50:34] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part5/code-snippets.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part5/code-snippets.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part5_code-snippets.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:50:53] [GET] https://pwning.owasp-juice.shop/companion-guide/latest/part5/tutorials.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/latest/part5/tutorials.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_latest_part5_tutorials.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:51:15] [GET] https://pwning.owasp-juice.shop/companion-guide/snapshot/index.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/snapshot/index.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_snapshot_index.html.json" -t 30 -d 0 -T 15 -c 250 -q
+>> [23:51:27] [GET] https://pwning.owasp-juice.shop/companion-guide/snapshot/part3/donations.html
+   CMD: arjun -u "https://pwning.owasp-juice.shop/companion-guide/snapshot/part3/donations.html" -m GET -oJ "./arjun_results/20260309_184717/GET/pwning.owasp-juice.shop_companion-guide_snapshot_part3_donations.html.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+[1;91m[-][0m Encountered an error: pwning.owasp-juice.shop
+>> [23:51:48] [GET] https://stats.owasp-juice.shop
+   CMD: arjun -u "https://stats.owasp-juice.shop" -m GET -oJ "./arjun_results/20260309_184717/GET/stats.owasp-juice.shop.json" -t 30 -d 0 -T 15 -c 250 -q
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com
+[1;91m[-][0m Encountered an error: juicy-statistics.herokuapp.com

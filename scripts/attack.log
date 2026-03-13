@@ -1,0 +1,55 @@
+=== Smart Login v2 - Multi-Endpoint: 2026-03-11T10:28:46.026357 ===
+[2026-03-11 10:28:46] [INFO] ======================================================================
+[2026-03-11 10:28:46] [INFO] PHASE 1: Finding ALL login URLs
+[2026-03-11 10:28:46] [INFO] ======================================================================
+[2026-03-11 10:28:46] [INFO] Opening: https://preview.owasp-juice.shop
+[2026-03-11 10:28:59] [INFO]   [DEBUG] Found 35 clickable elements to scan for login
+[2026-03-11 10:28:59] [INFO]     [ELEMENT 3] visible=False, href="#/login", id="", aria-label="Go to login page", text="exit_to_app  Login"
+[2026-03-11 10:28:59] [WARN]     ⚠ MATCH href (NOT visible): #/login - sẽ thử click với force=True
+[2026-03-11 10:29:00] [INFO]   [DEBUG] Regex found 1 login elements (visible=0, not_visible=1)
+[2026-03-11 10:29:00] [INFO]   [*] Processing element: href=#/login (visible=False)
+[2026-03-11 10:29:00] [INFO]     → Navigating to: https://preview.owasp-juice.shop#/login
+[2026-03-11 10:29:08] [INFO]   ✓ Found login URL via regex: https://preview.owasp-juice.shop/#/login (href=#/login)
+[2026-03-11 10:29:09] [INFO]   [+] Found register endpoint from login page: https://preview.owasp-juice.shop#/register
+[2026-03-11 10:29:32] [INFO] 
+✓ Found 1 login URL(s):
+[2026-03-11 10:29:32] [INFO]   - https://preview.owasp-juice.shop/#/login
+[2026-03-11 10:29:32] [INFO] 
+======================================================================
+[2026-03-11 10:29:32] [INFO] PHASE 2: Intercepting ALL API endpoints
+[2026-03-11 10:29:32] [INFO] ======================================================================
+[2026-03-11 10:29:36] [INFO]   [*] Attempting to close any blocking modals...
+[2026-03-11 10:29:37] [INFO]   [WATCHDOG] Closing modal via CSS: [aria-label*='close' i], [aria-label*='d
+[2026-03-11 10:29:40] [INFO] 
+✓ Intercepted 1 endpoint(s):
+[2026-03-11 10:29:40] [INFO]   - POST https://preview.owasp-juice.shop/rest/user/login
+[2026-03-11 10:29:40] [INFO]     Keys: email, password
+[2026-03-11 10:29:40] [INFO] 
+======================================================================
+[2026-03-11 10:29:40] [INFO] PHASE 3: Brute-force on ALL endpoints
+[2026-03-11 10:29:40] [INFO] ======================================================================
+[2026-03-11 10:29:40] [INFO] [*] Brute-forcing 2 email(s) × 7 password(s) × 1 endpoint(s)
+[2026-03-11 10:29:40] [INFO] [*] Total attempts: 14
+[2026-03-11 10:29:40] [INFO] 
+[*] Testing vanluongle04@gmail.com on: https://preview.owasp-juice.shop/rest/user/login
+[2026-03-11 10:29:44] [WARN] 
+[✗] vanluongle04@gmail.com failed on all endpoints
+[2026-03-11 10:29:44] [INFO] 
+[*] Testing test@test.com on: https://preview.owasp-juice.shop/rest/user/login
+[2026-03-11 10:29:47] [WARN] 
+[✗] test@test.com failed on all endpoints
+[2026-03-11 10:29:47] [INFO] 
+======================================================================
+[2026-03-11 10:29:47] [WARN] ✗ BRUTE-FORCE FAILED: No credentials found
+[2026-03-11 10:29:47] [INFO] ======================================================================
+[2026-03-11 10:29:47] [INFO] 
+======================================================================
+[2026-03-11 10:29:47] [INFO] BRUTE-FORCE FAILED → AUTO FALLBACK TO REGISTRATION
+[2026-03-11 10:29:47] [INFO] ======================================================================
+[2026-03-11 10:29:47] [INFO] Running: /usr/bin/python3 /home/pikachu/Downloads/ADAPT/scripts/smart_register.py -u https://preview.owasp-juice.shop/#/ --register-url https://preview.owasp-juice.shop#/register --login-url https://preview.owasp-juice.shop/#/login
+[2026-03-11 10:30:13] [INFO] 
+[+] Registration successful!
+[2026-03-11 10:30:13] [INFO] [+] Session saved to: session_cookies.json
+[2026-03-11 10:30:13] [INFO] 
+[*] Next step - Run deep_crawl:
+[2026-03-11 10:30:13] [INFO]     ./deep_crawl_v3.sh https://preview.owasp-juice.shop/#/ session_cookies.json

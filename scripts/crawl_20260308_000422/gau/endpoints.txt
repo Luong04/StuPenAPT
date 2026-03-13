@@ -1,0 +1,24 @@
+https://preview.owasp-juice.shop/
+https://preview.owasp-juice.shop/ads.txt
+https://preview.owasp-juice.shop/api/Challenges
+https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board
+https://preview.owasp-juice.shop/api/Quantitys/
+https://preview.owasp-juice.shop/app-ads.txt
+https://preview.owasp-juice.shop/ftp/eastere.gg
+https://preview.owasp-juice.shop/rest/admin/application-configuration
+https://preview.owasp-juice.shop/rest/admin/application-version
+https://preview.owasp-juice.shop/rest/languages
+https://preview.owasp-juice.shop/rest/products/search
+https://preview.owasp-juice.shop/robots.txt
+https://preview.owasp-juice.shop/sitemap.xml
+https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PgmS6tG
+https://preview.owasp-juice.shop/.well-known/ai-plugin.json
+https://preview.owasp-juice.shop/.well-known/assetlinks.json
+https://preview.owasp-juice.shop/.well-known/dnt-policy.txt
+https://preview.owasp-juice.shop/.well-known/en, ar, az, bg, bn, ca, cs, da, de, ga, el, es, et, fi, fr, ka, he, hi, hu, id, it, ja, ko, lv, my, nl, no, pl, pt, ro, ru, si, sv, th, tr, uk, zh
+https://preview.owasp-juice.shop/.well-known/gpc.json
+https://preview.owasp-juice.shop/.well-known/nodeinfo
+https://preview.owasp-juice.shop/.well-known/openid-configuration
+https://preview.owasp-juice.shop/.well-known/security.txt
+https://preview.owasp-juice.shop/.well-known/Thu, 10 Jul 2025 15:27:45 GMT
+https://preview.owasp-juice.shop/.well-known/trust.txt

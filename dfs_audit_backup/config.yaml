@@ -1,0 +1,77 @@
+# ═══════════════════════════════════════════════════════════
+#  DFS Web Crawler + Security Auditor — Configuration
+# ═══════════════════════════════════════════════════════════
+
+target: "https://preview.owasp-juice.shop/#/"
+
+# ─── Browser (🎭 Playwright Python) ──────────────────────
+browser:
+  #headless: true
+  headed: true
+  cdp_port: 9222
+  proxy: "http://127.0.0.1:8080"   # mitmproxy nếu cần deep SSL inspection
+  #proxy: null
+  user_agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  har_path: "./output/session.har"
+  init_script: "./scripts/init_inject.js"
+
+# ─── DFS Crawl Settings ─────────────────────────────────
+crawl:
+  max_depth: 10
+  max_pages: 500
+  scope_pattern: "preview.owasp-juice.shop"     # only crawl URLs containing this
+  exclude_patterns:
+    - "logout"
+    - "signout"
+    - "delete"
+    - ".pdf"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+    - ".gif"
+    - ".svg"
+    - ".woff"
+    - ".woff2"
+    - ".ttf"
+    - ".ico"
+
+  # Khi nào gọi AI agent (🤖 Playwright-MCP)
+  ai_trigger:
+    on_forms: true        # form detected → AI fills + submits
+    on_captcha: true      # captcha → AI attempts to solve
+
+# ─── LLM (powering the AI agent) ────────────────────────
+# Dùng GitHub Models API — tương thích OpenAI, dùng GitHub PAT
+# Tạo token tại: https://github.com/settings/tokens
+# Models có sẵn: gpt-4o, gpt-4o-mini, o1-mini, ...
+llm:
+  provider: "github"
+  model: "Meta-Llama-3.1-8B-Instruct"
+  base_url: "https://models.inference.ai.azure.com"
+  api_key_env: "GITHUB_TOKEN"     # đọc từ biến môi trường GITHUB_TOKEN
+  max_tokens: 4096
+  temperature: 0.1
+
+# ─── Session Cookies (login handled externally) ─────────
+# File JSON chứa cookies + token từ hệ thống login bên ngoài
+session_cookies: "../scripts/session_cookies.json"
+
+# ─── Nuclei Scanner (🔍) ────────────────────────────────
+nuclei:
+  enabled: true
+  templates:
+    - "cves"
+    - "vulnerabilities"
+    - "misconfiguration"
+    - "exposed-panels"
+  severity: "low,medium,high,critical"
+  rate_limit: 50
+  timeout: 30
+
+# ─── Output ─────────────────────────────────────────────
+output:
+  dir: "./output"
+  traffic_log: "traffic.jsonl"
+  crawl_log: "crawl.jsonl"
+  nuclei_results: "nuclei_results.jsonl"
+  report: "report.json"

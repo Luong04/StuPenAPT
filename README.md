@@ -4,8 +4,8 @@
 Ưu tiên subdomain => nmap =>katana (nếu mã không bị obfuscate)=> nuclei
 nếu obfuscate => playwright + mimtproxy =>nuclei
 
-- subfinder => httpx => nuclei /network => metasploit
-- subfinder => httpx => katana + waybackurls/gau +feroxbuster+crawlgo => (jq if json) =>uro => httpx -H -mc 200,201 => arjun (GET,POST) => nuclei /http
+- subfinder + gobuster =>alterx => dnsx => nuclei /network => metasploit
+- subfinder + gobuster =>alterx => dnsx => => need_headless?katana+jq + gau +feroxbuster =>uro => httpx -H -mc 200,201 => arjun (GET,POST) => nuclei /http
 
 ** Tất cả phần xử lý trước khi có clean_urls.txt (danh sách toàn bộ url được xử lý sạch - không lặp + tồn tại.) đều qua file, sau đó có thể xóa toàn bộ file và để lại mỗi clean_urls.txt. Sử dụng katana, nếu dữ liệu POST ít hoặc không hoạt động được chuyển sang crawlgo.
 (dungf katana sử dụng flag -cs để giới hạn domain api)
@@ -17,7 +17,7 @@ Kịch bản 4: LFI
 Kịch bản 5: SSRF
 Kịch bản 6: SSTI
 Kịch bản 6: Upload -> tool fuxploider
-# Các vấn đề khi xây dựng app   
+# Các vấn đề khi xây dựng app
 ## Viết các tệp trong thư mục plugins
 
 **Cần bổ sung -H để nhận cookie ở các plugin, nên truyền cookie vào Target.arch sau đó các tool có option -H sẽ sử dụng, nếu không có cookie mặc định sẽ bỏ -H**
@@ -41,3 +41,4 @@ Kịch bản 6: Upload -> tool fuxploider
 Cách nhau bởi dấu phẩy , ví dụ "Step1, Step2".
 - ScanRepertoire.arch ...
 
+!

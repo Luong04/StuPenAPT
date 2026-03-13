@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8FxE",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/api/Challenges/?name=Score%20Board",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/products/search?q=",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8F_M&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8F_R&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8G5s&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/user/whoami?fields=id,email",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8M8F&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8M8I&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/user/whoami?fields=id,email",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/user/whoami?fields=id,email",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/user/whoami?fields=id,email",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8SL3&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8SL5&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8YVf&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8YVi&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8ehV&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8ehX&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/api/Challenges/?sort=name",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/products/search?q=",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/user/whoami?fields=email",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/rest/products/search?q=",
+    "method": "GET",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8jLM&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  },
+  {
+    "url": "https://preview.owasp-juice.shop/socket.io/?EIO=4&transport=polling&t=PpS8kHk&sid=q9PldzUn95cSSRG5AAm_",
+    "method": "POST",
+    "body": "",
+    "headers": {}
+  }
+]
