@@ -1,219 +1,114 @@
 {
   "target": "https://preview.owasp-juice.shop/#/",
-  "timestamp": 1773291296.7756011,
-  "duration_seconds": 271.7,
+  "timestamp": 1773480315.0061517,
+  "duration_seconds": 217.4,
   "summary": {
-    "pages_crawled": 11,
+    "pages_crawled": 10,
     "total_requests": 0,
     "websocket_frames": 0,
     "unique_endpoints": 0,
     "parameterized_endpoints": 0,
     "vulnerabilities_found": 0,
-    "sensitive_findings": 21
+    "sensitive_findings": 2
   },
   "vulnerabilities": [],
   "sensitive_findings": [
     {
-      "url": "https://preview.owasp-juice.shop/#/",
-      "finding": "<img src=x onerror=alert(\"XSS-POWNED-BY-ADMIN\")>",
-      "timestamp": 1773291058.0435176
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/",
-      "finding": "<script>alert(\"XSS-BY-ADMIN\")</script>",
-      "timestamp": 1773291058.0435224
-    },
-    {
       "url": "https://preview.owasp-juice.shop/#/contact",
-      "finding": "Email address: ***ardsdennis_761@gmail.com",
-      "timestamp": 1773291084.44304
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/contact",
-      "finding": "CAPTCHA code: 6+4+9",
-      "timestamp": 1773291084.4430416
+      "finding": "Email address visible: ***ardsdennis_761@gmail.com",
+      "timestamp": 1773480165.1556606
     },
     {
       "url": "https://preview.owasp-juice.shop/#/complain",
-      "finding": "edwardsdennis_761@gmail.com (exposed email address)",
-      "timestamp": 1773291103.0514636
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/about",
-      "finding": "ftp/legal.md - Potentially sensitive file path exposed in the 'Terms of Use' link.",
-      "timestamp": 1773291133.451259
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/about",
-      "finding": "https://owasp.org/slack/invite - Slack workspace invite link, could be considered sensitive if not intended for public access.",
-      "timestamp": 1773291133.4512606
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/photo-wall",
-      "finding": "Magn(et)ificent! (\u00a9 bkimminich)",
-      "timestamp": 1773291160.593708
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/photo-wall",
-      "finding": "My rare collectors item! [\u0332\u0305$\u0332\u0305(\u0332\u0305 \u0361\u00b0 \u035c\u0296 \u0361\u00b0\u0332\u0305)\u0332\u0305$\u0332\u0305] (\u00a9 bkimminich)",
-      "timestamp": 1773291160.5937104
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/photo-wall",
-      "finding": "Welcome to the Bee Haven (/#/bee-haven)\ud83d\udc1d (\u00a9 evmrox)",
-      "timestamp": 1773291160.5937116
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/photo-wall",
-      "finding": "I love going hiking here... (\u00a9 j0hNny)",
-      "timestamp": 1773291160.5937123
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/photo-wall",
-      "finding": "My old workplace... (\u00a9 E=ma\u00b2)",
-      "timestamp": 1773291160.593713
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/score-board",
-      "finding": "Potentially sensitive code snippet: <iframe src=\"javascript:alert(`xss`)\">",
-      "timestamp": 1773291240.3098123
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/score-board",
-      "finding": "Potentially sensitive code snippet: <iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.",
-      "timestamp": 1773291240.309814
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/score-board",
-      "finding": "Link to vulnerability mitigation guide: https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html",
-      "timestamp": 1773291240.3098147
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/score-board",
-      "finding": "Link to potentially dangerous challenges: https://pwning.owasp-juice.shop/companion-guide/latest/part1/challenges.html#_potentially_dangerous_challenges",
-      "timestamp": 1773291240.309815
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/search",
-      "finding": "v20.0.0-SNAPSHOT (version number exposed)",
-      "timestamp": 1773291267.775535
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/search",
-      "finding": "<img src=x onerror=alert(\"XSS-POWNED-BY-ADMIN\")> (potential XSS vulnerability)",
-      "timestamp": 1773291267.7755382
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/search",
-      "finding": "<script>alert(\"XSS-BY-ADMIN\")</script> (potential XSS vulnerability)",
-      "timestamp": 1773291267.775539
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/basket",
       "finding": "edwardsdennis_761@gmail.com",
-      "timestamp": 1773291289.7418804
-    },
-    {
-      "url": "https://preview.owasp-juice.shop/#/basket",
-      "finding": "v20.0.0-SNAPSHOT",
-      "timestamp": 1773291289.7418828
+      "timestamp": 1773480186.613105
     }
   ],
   "crawl_log": [
     {
-      "timestamp": 1773291059.0547056,
+      "timestamp": 1773480137.313267,
       "url": "https://preview.owasp-juice.shop/#/",
       "depth": 0,
       "parent": "",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 9
+      "links": 8
     },
     {
-      "timestamp": 1773291085.4525936,
+      "timestamp": 1773480166.1660914,
       "url": "https://preview.owasp-juice.shop/#/contact",
       "depth": 1,
       "parent": "https://preview.owasp-juice.shop/#/",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 8
+      "links": 7
     },
     {
-      "timestamp": 1773291104.060225,
+      "timestamp": 1773480187.6231291,
       "url": "https://preview.owasp-juice.shop/#/complain",
       "depth": 2,
       "parent": "https://preview.owasp-juice.shop/#/contact",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 7
+      "links": 6
     },
     {
-      "timestamp": 1773291124.5335886,
+      "timestamp": 1773480259.910242,
       "url": "https://preview.owasp-juice.shop/#/chatbot",
       "depth": 3,
       "parent": "https://preview.owasp-juice.shop/#/complain",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 6
+      "links": 5
     },
     {
-      "timestamp": 1773291134.4612453,
+      "timestamp": 1773480264.5144584,
       "url": "https://preview.owasp-juice.shop/#/about",
       "depth": 4,
-      "parent": "https://preview.owasp-juice.shop/#/chatbot/conversation/1773291110363_f4556w6e",
+      "parent": "https://preview.owasp-juice.shop/#/chatbot",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 6
+      "links": 5
     },
     {
-      "timestamp": 1773291161.60215,
+      "timestamp": 1773480289.8041499,
       "url": "https://preview.owasp-juice.shop/#/photo-wall",
       "depth": 5,
       "parent": "https://preview.owasp-juice.shop/#/about",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 4
+      "links": 3
     },
     {
-      "timestamp": 1773291167.922829,
+      "timestamp": 1773480294.420483,
       "url": "https://preview.owasp-juice.shop/#/deluxe-membership",
       "depth": 6,
       "parent": "https://preview.owasp-juice.shop/#/photo-wall",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
-      "links": 3
-    },
-    {
-      "timestamp": 1773291241.3200595,
-      "url": "https://preview.owasp-juice.shop/#/score-board",
-      "depth": 7,
-      "parent": "https://preview.owasp-juice.shop/#/payment/deluxe",
-      "status": "success",
-      "forms": false,
-      "ai_interacted": true,
       "links": 2
     },
     {
-      "timestamp": 1773291268.7846975,
+      "timestamp": 1773480299.0779665,
       "url": "https://preview.owasp-juice.shop/#/search",
-      "depth": 8,
-      "parent": "https://preview.owasp-juice.shop/#/score-board?searchQuery=XSS",
+      "depth": 7,
+      "parent": "https://preview.owasp-juice.shop/#/deluxe-membership",
       "status": "success",
       "forms": false,
       "ai_interacted": true,
       "links": 1
     },
     {
-      "timestamp": 1773291290.7507355,
+      "timestamp": 1773480304.5849524,
       "url": "https://preview.owasp-juice.shop/#/basket",
-      "depth": 9,
+      "depth": 8,
       "parent": "https://preview.owasp-juice.shop/#/search",
       "status": "success",
       "forms": false,
@@ -221,7 +116,7 @@
       "links": 0
     },
     {
-      "timestamp": 1773291296.7749128,
+      "timestamp": 1773480315.0053875,
       "url": "https://preview.owasp-juice.shop/ftp/legal.md",
       "depth": 5,
       "parent": "https://preview.owasp-juice.shop/#/about",

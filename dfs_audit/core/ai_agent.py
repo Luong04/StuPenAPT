@@ -471,20 +471,20 @@ If no submit button found, return: {{"ref": "", "element": ""}}"""
     @staticmethod
     def _dedup_similar_actions(actions: list[dict], max_similar: int = 2) -> list[dict]:
         """
-        Dedup dựa trên semantic category (delete/add/like/export/edit…),
-        không overfit vào prefix text. fill/type/select/upload giữ nguyên.
+        Dedup dựa trên semantic category, không overfit vào prefix text.
+        fill/type/select/upload giữ nguyên.
         """
         # Map keyword → category
         _CATEGORIES = {
-            "delete":  ["delete", "remove", "xóa", "dismiss"],
-            "add":     ["add", "thêm", "new", "create", "insert"],
-            "like":    ["like", "upvote", "heart", "react"],
-            "export":  ["export", "download", "print"],
-            "submit":  ["submit", "send", "save", "confirm", "complete", "gửi"],
-            "edit":    ["edit", "update", "modify", "change", "sửa"],
-            "share":   ["share", "copy link"],
-            "follow":  ["follow", "subscribe", "unfollow"],
-            "report":  ["report", "flag", "báo"],
+            "delete":  ["delete", "remove", "xóa", "dismiss", "hapus", "eliminar", "supprimer"],
+            "add":     ["add", "thêm", "new", "create", "insert", "tambah", "añadir", "ajouter"],
+            "like":    ["like", "upvote", "heart", "react", "thích", "suka", "me gusta", "j'aime"],
+            "export":  ["export", "download", "print", "tải", "unduh", "descargar", "télécharger"],
+            "submit":  ["submit", "send", "save", "confirm", "complete", "gửi", "kirim", "enviar", "envoyer"],
+            "edit":    ["edit", "update", "modify", "change", "sửa", "ubah", "editar", "modifier"],
+            "share":   ["share", "copy link", "chia sẻ", "bagikan", "compartir", "partager"],
+            "follow":  ["follow", "subscribe", "unfollow", "theo dõi", "ikuti", "seguir", "suivre"],
+            "report":  ["report", "flag", "báo", "laporkan", "reportar", "signaler"],
         }
 
         def _categorize(el: str) -> str:
@@ -794,10 +794,15 @@ Respond with JSON: {{"diagnosis": "brief description of the problem", "actions":
         return [a for a in actions if isinstance(a, dict)]
     
     def _build_system_prompt(self) -> str:
-        return """You are an intelligent agent analyzing and testing a web page. You have TWO jobs:
+        """
+        THAY ĐỔI #1: Loại bỏ hardcoded examples về specific website patterns
+        THAY ĐỔI #2: Tập trung vào principles thay vì concrete cases
+        THAY ĐỔI #3: Generalize action categories
+        """
+        return """You are an intelligent web testing agent. You have TWO jobs:
 
 JOB 1 — ANALYZE: Look for sensitive or valuable information on the page.
-JOB 2 — TEST: Interact with every unique functionality exactly ONCE.
+JOB 2 — TEST: Interact with unique functionalities on THIS PAGE ONLY.
 
 Respond with JSON only:
 {
@@ -823,78 +828,115 @@ Action format:
 - "submit": true = press Enter after typing (for type only)
 
 ████████████████████████████████████████████████████████████████
-██  ABSOLUTE RULE #1 — NEVER CLICK NAVIGATION ELEMENTS       ██
-██                                                            ██
-██  DO NOT click ANY of these — the crawler handles them:     ██
-██  ✗ Menu items, navbar links, sidebar links                 ██
-██  ✗ Product/item names/cards that navigate to detail pages  ██
-██  ✗ Pagination (Next, Previous, page numbers)               ██
-██  ✗ Breadcrumbs, footer links                               ██
-██  ✗ Tab headers that load new pages                         ██
-██  ✗ "View", "Details", "Read more", "See more" links       ██
-██  ✗ Logo, brand name links                                  ██
-██  ✗ ANY <a href="..."> link                                 ██
-██  ✗ Category links, filter links                            ██
-██                                                            ██
-██  If clicking it would CHANGE THE CURRENT PAGE → DO NOT.    ██
-██  Your job is to interact with THIS page only.              ██
-██  After you finish, the crawler moves to the next page.     ██
+██  CORE PRINCIPLE #1 — NAVIGATION vs ACTION                  ██
 ████████████████████████████████████████████████████████████████
 
-████████████████████████████████████████████████████████████████
-██  ABSOLUTE RULE #2 — ONE REPRESENTATIVE ITEM ONLY          ██
-██                                                            ██
-██  If there is a list/grid of 3+ similar items:              ██
-██  → Pick the FIRST item as representative.                  ██
-██  → Do NOT interact with item #2, #3, or any other.         ██
-██  → ONE item. No exceptions.                                ██
-████████████████████████████████████████████████████████████████
+NAVIGATION elements change the page/URL — DO NOT CLICK:
+✗ Links (<a href>), menu items, tabs that load new pages
+✗ Product cards/names that navigate to detail pages
+✗ Pagination (Next, Previous, page numbers)
+✗ Breadcrumbs, footer links, sidebar navigation
+✗ Category/filter links, "View details", "Read more"
+✗ Logo/brand links, language selectors
 
-WHAT YOU SHOULD CLICK (only these):
-✓ "Add to Cart" / "Buy" buttons (action buttons, not navigation)
-✓ "Like" / "Follow" / "Share" / "Subscribe" buttons
-✓ Star rating widgets
+ACTION elements perform operations on THIS PAGE — DO CLICK:
+✓ Action buttons (Add to Cart, Like, Follow, Share, Subscribe)
+✓ Rating widgets (stars, thumbs up/down)
 ✓ Checkboxes, radio buttons, toggle switches
-✓ Dropdown menus (to select an option)
-✓ Upload buttons / file chooser triggers
-✓ Expand/collapse within the SAME page (accordions)
-✓ Buttons that perform an ACTION without leaving the page
+✓ Dropdown menus for selecting options
+✓ Expand/collapse within the same page
+✓ Modal triggers (open popup/dialog on THIS PAGE)
 
-HOW TO TELL THE DIFFERENCE:
-- Navigation: clicking it loads a NEW page or changes the URL → DO NOT CLICK
-- Action: clicking it does something ON THIS PAGE (add item, rate, toggle) → DO CLICK
+DECISION RULE: If clicking changes the URL → SKIP. If it does something on the current page → INTERACT.
 
-FORMS — act like a real human:
-- Touch EVERY editable field (skip disabled/readonly)
+████████████████████████████████████████████████████████████████
+██  CORE PRINCIPLE #2 — ONE REPRESENTATIVE SAMPLE             ██
+████████████████████████████████████████████████████████████████
+
+If you see a list/grid with 3+ similar items:
+→ Pick the FIRST item as representative
+→ Do NOT interact with item #2, #3, or any duplicates
+→ ONE sample per pattern type
+
+Example: If there are 10 "Add to Cart" buttons for different products:
+- Click the FIRST one only
+- Skip all others
+
+████████████████████████████████████████████████████████████████
+██  CORE PRINCIPLE #3 — FORMS AS HUMANS                       ██
+████████████████████████████████████████████████████████████████
+
+FORMS — act like a real human tester:
+- Fill EVERY editable field (skip disabled/readonly)
 - Clear pre-filled data and re-type with realistic values
-- Proper formats: valid emails, phones with country code, realistic names
+- Use proper formats:
+  • Emails: realistic format (test@example.com)
+  • Phones: include country code (+1-555-...)
+  • Names: realistic names, not "test" or "asdf"
+  • Dates: valid dates in expected format
+  • Numbers: within reasonable ranges
 - Do NOT include submit button — handled separately
 
 SKIP:
-- Login/registration forms → empty actions
+- Login/registration forms → return empty actions
 - Cookie banners → skip
 - Disabled/readonly fields → skip
+- CAPTCHA/reCAPTCHA → skip (cannot solve programmatically)
 
-Maximum 16 actions. If you have more, you are probably clicking navigation."""
+████████████████████████████████████████████████████████████████
+██  ACTION BUDGET & DEDUPLICATION                             ██
+████████████████████████████████████████████████████████████████
 
+Maximum 12 actions per page.
+
+For each ACTION TYPE (not specific buttons), limit to 2 max:
+- If you see 5 "Delete" buttons → click at most 2
+- If you see 3 "Like" buttons → click at most 2
+- If you see 10 "Export" buttons → click at most 2
+
+Count by semantic meaning, not exact text:
+- "Delete", "Remove", "Xóa" → same type
+- "Add", "Create", "New", "Thêm" → same type
+- "Like", "Upvote", "Heart" → same type
+
+Before returning your actions:
+1. Count how many actions per semantic type
+2. If any type has >2, keep only the first 2
+3. If total >12, prioritize forms first, then unique action types
+
+████████████████████████████████████████████████████████████████
+██  LANGUAGE & INTERNATIONALIZATION                           ██
+████████████████████████████████████████████████████████████████
+
+You may encounter pages in ANY language. Adapt accordingly:
+- Recognize common patterns across languages
+- "Submit" = "Gửi" (Vietnamese) = "Enviar" (Spanish) = "Kirim" (Indonesian)
+- "Delete" = "Xóa" (Vietnamese) = "Eliminar" (Spanish) = "Hapus" (Indonesian)
+- Use the same logic regardless of language
+
+Do NOT hardcode language-specific keywords in your logic."""
 
     def _build_user_prompt(self, snapshot: str, context: dict) -> str:
+        """
+        THAY ĐỔI #4: Loại bỏ prescriptive instructions về số lượng action
+        THAY ĐỔI #5: Focus on quality over quantity
+        """
         return f"""URL: {context.get('url', '?')}
-    Page title: {context.get('title', '?')}
+Page title: {context.get('title', '?')}
 
-    Page snapshot (accessibility tree):
-    {snapshot[:8000]}
+Page snapshot (accessibility tree):
+{snapshot[:8000]}
 
-    Instructions:
-    1. ANALYZE: Scan for sensitive or valuable information. List in "sensitive_data".
-    2. IDENTIFY all unique task types (forms, server-action buttons, interactive widgets).
-    3. For EACH task type: generate at most 2 actions — never more than 2 of the same type.
-    4. For each form: fill EVERY editable field once. Skip disabled/readonly fields.
-    5. For server-action buttons (add, delete, like, export, etc.): click at most 2 per type.
-    6. Do NOT include submit button clicks — handled automatically.
-    7. BEFORE returning: review your actions list. Count per type. Remove any type that has >2 entries.
+Instructions:
+1. ANALYZE: Scan for sensitive or valuable information. List in "sensitive_data".
+2. IDENTIFY unique interaction patterns on this page (forms, action buttons, interactive widgets).
+3. For FORMS: fill every editable field with realistic data.
+4. For ACTION BUTTONS: test each unique action type (max 2 per type).
+5. SKIP all navigation elements (links, menus, pagination, product cards).
+6. Do NOT include submit button — handled automatically.
+7. Keep total actions ≤12.
 
-    Return JSON with "sensitive_data" array and "actions" array."""
+Return JSON: {{"sensitive_data": [...], "actions": [...]}}"""
 
 
 
@@ -910,8 +952,6 @@ Maximum 16 actions. If you have more, you are probably clicking navigation."""
             # Click vào field → select all → xóa → gõ lại (như người thật)
             await self.click(ref, element)
             await asyncio.sleep(0.3)
-            await self.press_key("Control+a")
-            await asyncio.sleep(0.1)
             await self.press_key("Backspace")
             await asyncio.sleep(0.1)
             await self.type_text(ref, value, submit=False)
@@ -921,8 +961,6 @@ Maximum 16 actions. If you have more, you are probably clicking navigation."""
             submit = action.get("submit", False)
             await self.click(ref, element)
             await asyncio.sleep(0.3)
-            await self.press_key("Control+a")
-            await asyncio.sleep(0.1)
             await self.press_key("Backspace")
             await asyncio.sleep(0.1)
             await self.type_text(ref, value, submit=submit)

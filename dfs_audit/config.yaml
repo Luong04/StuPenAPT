@@ -44,6 +44,7 @@ crawl:
 # Dùng GitHub Models API — tương thích OpenAI, dùng GitHub PAT
 # Tạo token tại: https://github.com/settings/tokens
 # Models có sẵn: gpt-4o, gpt-4o-mini, o1-mini, ...
+
 llm:
   provider: "github"
   model: "gpt-4o"
@@ -51,6 +52,13 @@ llm:
   api_key_env: "GITHUB_TOKEN"     # đọc từ biến môi trường GITHUB_TOKEN
   max_tokens: 4096
   temperature: 0.1
+
+# llm:
+#   provider: "openai"
+#   model: "deepseek-r1:7b-qwen-distill-q4_K_M"
+#   base_url: "http://192.168.12.184:11434/v1"
+#   max_tokens: 10000
+#   temperature: 0.1
 
 # ─── Session Cookies (login handled externally) ─────────
 # File JSON chứa cookies + token từ hệ thống login bên ngoài
