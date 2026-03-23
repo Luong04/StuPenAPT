@@ -1,0 +1,9 @@
+{
+	"id": "FwqVmP4S2D1MmQs",
+	"json": "{\"id\":\"FwqVmP4S2D1MmQs\",\"url\":\"https://preview.owasp-juice.shop/#/\",\"loadedUrl\":\"https://preview.owasp-juice.shop/#/\",\"uniqueKey\":\"https://preview.owasp-juice.shop\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":0,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-03-23T16:21:35.979Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://preview.owasp-juice.shop",
+	"url": "https://preview.owasp-juice.shop/#/"
+}

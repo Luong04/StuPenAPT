@@ -1,0 +1,9 @@
+{
+	"id": "Ro5pHoBlN4HEBpx",
+	"json": "{\"id\":\"Ro5pHoBlN4HEBpx\",\"url\":\"https://preview.owasp-juice.shop/#/forgot-password\",\"loadedUrl\":\"https://preview.owasp-juice.shop/#/forgot-password\",\"uniqueKey\":\"https://preview.owasp-juice.shop/#/forgot-password\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-03-23T16:22:19.635Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://preview.owasp-juice.shop/#/forgot-password",
+	"url": "https://preview.owasp-juice.shop/#/forgot-password"
+}

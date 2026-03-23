@@ -1,0 +1,9 @@
+{
+	"id": "9YpxhelpJeSiSFJ",
+	"json": "{\"id\":\"9YpxhelpJeSiSFJ\",\"url\":\"https://preview.owasp-juice.shop/#/login\",\"loadedUrl\":\"https://preview.owasp-juice.shop/#/login\",\"uniqueKey\":\"https://preview.owasp-juice.shop/#/login\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-03-23T16:21:56.558Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://preview.owasp-juice.shop/#/login",
+	"url": "https://preview.owasp-juice.shop/#/login"
+}

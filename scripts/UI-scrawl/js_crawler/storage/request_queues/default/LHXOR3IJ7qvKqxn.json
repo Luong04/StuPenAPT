@@ -1,0 +1,9 @@
+{
+	"id": "LHXOR3IJ7qvKqxn",
+	"json": "{\"id\":\"LHXOR3IJ7qvKqxn\",\"url\":\"https://preview.owasp-juice.shop/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)\",\"loadedUrl\":\"https://preview.owasp-juice.shop/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)\",\"uniqueKey\":\"https://preview.owasp-juice.shop/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":2,\"__crawlee\":{\"crawlDepth\":2,\"enqueueStrategy\":\"same-hostname\",\"state\":4}},\"handledAt\":\"2026-03-23T16:22:38.131Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://preview.owasp-juice.shop/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)",
+	"url": "https://preview.owasp-juice.shop/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20(O-Saft)"
+}

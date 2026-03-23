@@ -1,0 +1,9 @@
+{
+	"id": "V4DfO76Jl5IJsEO",
+	"json": "{\"id\":\"V4DfO76Jl5IJsEO\",\"url\":\"https://preview.owasp-juice.shop/redirect?to=https://github.com/juice-shop/juice-shop\",\"loadedUrl\":\"https://github.com/juice-shop/juice-shop\",\"uniqueKey\":\"https://preview.owasp-juice.shop/redirect?to=https://github.com/juice-shop/juice-shop\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"depth\":1,\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":7}},\"handledAt\":\"2026-03-23T16:22:13.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://preview.owasp-juice.shop/redirect?to=https://github.com/juice-shop/juice-shop",
+	"url": "https://preview.owasp-juice.shop/redirect?to=https://github.com/juice-shop/juice-shop"
+}

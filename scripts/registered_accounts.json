@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-11T10:30:01.139480",
-  "url": "https://preview.owasp-juice.shop/#/",
+  "timestamp": "2026-03-23T23:04:03.696982",
+  "url": "https://preview.owasp-juice.shop/",
   "credentials": {
-    "username": "edwardsdennis",
-    "email": "edwardsdennis_761@gmail.com",
-    "password": "4KpST7OE0n8Q!Aa1"
+    "username": "dangjohn",
+    "email": "dangjohn_382@yahoo.com",
+    "password": "KjVfgfzIWR9n!Aa1"
   },
   "token": null,
   "status": "success",
@@ -12,12 +12,12 @@
     {
       "name": "emailControl",
       "type": "email",
-      "value": "edwardsdennis_761@gmail.com"
+      "value": "dangjohn_382@yahoo.com"
     },
     {
       "name": "securityAnswerControl",
       "type": "firstname",
-      "value": "Jennifer"
+      "value": "John"
     },
     {
       "name": "passwordControl",
